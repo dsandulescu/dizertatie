@@ -1,0 +1,12 @@
+
+# monitorizare process pid, cpu, mem,
+ps -C chrome -o pid,%cpu,%mem,cmd
+
+#monitorizare disk
+iotop
+
+#finding open ports of process
+netsta -tupan
+
+#monitorizare net
+https://boopathi.in/blog/capturing-per-process-bandwidth-usage-using-nethogs/
